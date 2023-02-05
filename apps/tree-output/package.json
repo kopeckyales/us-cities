@@ -1,0 +1,21 @@
+{
+  "name": "@us-cities/tree-output",
+  "version": "1.0.0",
+  "main": "dist/index.js",
+  "scripts": {
+    "clean": "rm -rf dist",
+    "lint": "eslint .",
+    "build": "tsc"
+  },
+  "dependencies": {
+    "@us-cities/city-tree": "*",
+    "@us-cities/knex-db": "*"
+  },
+  "devDependencies": {
+    "@types/node": "^18.11.18",
+    "@us-cities/data-contracts": "*",
+    "@us-cities/eslint-config-custom": "*",
+    "@us-cities/tsconfig": "*",
+    "typescript": "^4.9.4"
+  }
+}

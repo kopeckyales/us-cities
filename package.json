@@ -1,0 +1,22 @@
+{
+  "private": true,
+  "workspaces": [
+    "apps/*",
+    "packages/*"
+  ],
+  "scripts": {
+    "build": "turbo run build",
+    "clean": "turbo run clean",
+    "lint": "turbo run lint",
+    "import": "node ./apps/import/dist/index.js",
+    "api": "node ./apps/api/dist/index.js",
+    "tree-output": "node ./apps/tree-output/dist/index.js",
+    "viewer": "turbo run dev --filter=viewer"
+  },
+  "devDependencies": {
+    "@us-cities/eslint-config-custom": "*",
+    "eslint": "^8.33.0",
+    "prettier": "^2.8.3",
+    "turbo": "latest"
+  }
+}

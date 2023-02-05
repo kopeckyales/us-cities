@@ -1,0 +1,22 @@
+{
+  "name": "@us-cities/import",
+  "version": "1.0.0",
+  "main": "dist/index.js",
+  "scripts": {
+    "clean": "rm -rf dist",
+    "lint": "eslint .",
+    "build": "tsc"
+  },
+  "dependencies": {
+    "@us-cities/logger": "*",
+    "@us-cities/knex-db": "*",
+    "csv-parse": "^5.3.4"
+  },
+  "devDependencies": {
+    "@types/node": "^18.11.18",
+    "@us-cities/eslint-config-custom": "*",
+    "@us-cities/data-contracts": "*",
+    "@us-cities/tsconfig": "*",
+    "typescript": "^4.9.4"
+  }
+}

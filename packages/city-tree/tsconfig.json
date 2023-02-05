@@ -1,0 +1,9 @@
+{
+  "extends": "@us-cities/tsconfig/pkg.json",
+  "include": ["src"],
+  "compilerOptions": {
+    "outDir": "dist",
+    "skipLibCheck": true,
+    "types": ["jest"]
+  }
+}

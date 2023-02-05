@@ -1,0 +1,20 @@
+{
+  "name": "@us-cities/data-contracts",
+  "version": "0.0.0",
+  "private": true,
+  "license": "MIT",
+  "main": "dist/index.js",
+  "scripts": {
+    "clean": "rm -rf dist",
+    "lint": "eslint .",
+    "build": "tsc"
+  },
+  "publishConfig": {
+    "access": "public"
+  },
+  "devDependencies": {
+    "@us-cities/eslint-config-custom": "*",
+    "@us-cities/tsconfig": "*",
+    "typescript": "^4.9.4"
+  }
+}

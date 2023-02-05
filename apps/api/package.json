@@ -1,0 +1,24 @@
+{
+  "name": "@us-cities/api",
+  "version": "1.0.0",
+  "main": "dist/index.js",
+  "scripts": {
+    "clean": "rm -rf dist",
+    "lint": "eslint .",
+    "build": "tsc"
+  },
+  "dependencies": {
+    "@fastify/cors": "^8.2.0",
+    "@us-cities/city-tree": "*",
+    "@us-cities/logger": "*",
+    "@us-cities/knex-db": "*",
+    "fastify": "^4.12.0"
+  },
+  "devDependencies": {
+    "@types/node": "^18.11.18",
+    "@us-cities/data-contracts": "*",
+    "@us-cities/eslint-config-custom": "*",
+    "@us-cities/tsconfig": "*",
+    "typescript": "^4.9.4"
+  }
+}

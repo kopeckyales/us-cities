@@ -1,0 +1,9 @@
+{
+  "extends": "@us-cities/tsconfig/base.json",
+  "include": ["src"],
+  "compilerOptions": {
+    "lib": ["ES2022"],
+    "outDir": "dist",
+    "skipLibCheck": true
+  }
+}

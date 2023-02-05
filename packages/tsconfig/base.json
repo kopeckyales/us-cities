@@ -1,0 +1,16 @@
+{
+  "$schema": "https://json.schemastore.org/tsconfig",
+  "display": "Base",
+  "compilerOptions": {
+    "exactOptionalPropertyTypes": true,
+    "removeComments": true,
+    "target": "es2022",
+    "strict": true,
+    "forceConsistentCasingInFileNames": true,
+    "sourceMap": true,
+    "esModuleInterop": true,
+    "module": "CommonJS",
+    "moduleResolution": "node"
+  },
+  "exclude": ["node_modules"]
+}
